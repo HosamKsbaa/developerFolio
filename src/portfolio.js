@@ -194,24 +194,24 @@ const workExperiences = {
       role: "Software Developer",
       company: "Freelance (Upwork, Mostaql)",
       companylogo: require("./assets/images/freelanceLogo.png"), // Placeholder, replace with actual logo if available
-      date: "2016 - January 2023",
+      date: "2018 - January 2023",
       desc: "Developed and maintained Flutter applications for clients, from conceptualization to deployment, ensuring high-quality mobile app solutions.",
       descBullets: [
         "Specialized in Flutter for cross-platform mobile app development.",
         "Managed full app lifecycle for various clients on Upwork and Mostaql."
       ]
     },
-    {
-      role: "Software Engineer",
-      company: "BlueBook-X",
-      companylogo: require("./assets/images/bluebookXLogo.png"), // Placeholder, replace with actual logo if available
-      date: "January 2020 - 2022",
-      desc: "Led client engagements, managed projects, and delivered tailored software solutions, ensuring client satisfaction and operational excellence.",
-      descBullets: [
-        "Oversaw project management and client relations in a software house setting.",
-        "Documented technical specifications and supported clients from onboarding to delivery."
-      ]
-    },
+    // {
+    //   role: "Software Engineer",
+    //   company: "BlueBook-X",
+    //   companylogo: require("./assets/images/bluebookXLogo.png"), // Placeholder, replace with actual logo if available
+    //   date: "January 2020 - 2022",
+    //   desc: "Led client engagements, managed projects, and delivered tailored software solutions, ensuring client satisfaction and operational excellence.",
+    //   descBullets: [
+    //     "Oversaw project management and client relations in a software house setting.",
+    //     "Documented technical specifications and supported clients from onboarding to delivery."
+    //   ]
+    // },
     {
       role: "Training Coordinator",
       company: "Resala Charity Organization",
@@ -223,17 +223,17 @@ const workExperiences = {
         "Contributed to humanitarian efforts through educational initiatives."
       ]
     },
-    {
-      role: "Unity Game Developer",
-      company: "EGyDark (Self-employed)",
-      companylogo: require("./assets/images/egydarkLogo.png"), // Placeholder, replace with actual logo if available
-      date: "January 2014 - 2017",
-      desc: "Initiated career in game development, focusing on AI and game design, and contributed to indie game projects, fostering skills in programming and creative design.",
-      descBullets: [
-        "Developed AI for game objects and contributed to game design.",
-        "Pioneered in indie game development, enhancing programming and design skills."
-      ]
-    }
+    // {
+    //   role: "Unity Game Developer",
+    //   company: "EGyDark (Self-employed)",
+    //   companylogo: require("./assets/images/egydarkLogo.png"), // Placeholder, replace with actual logo if available
+    //   date: "January 2014 - 2017",
+    //   desc: "Initiated career in game development, focusing on AI and game design, and contributed to indie game projects, fostering skills in programming and creative design.",
+    //   descBullets: [
+    //     "Developed AI for game objects and contributed to game design.",
+    //     "Pioneered in indie game development, enhancing programming and design skills."
+    //   ]
+    // }
   ]
 };
 
