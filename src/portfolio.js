@@ -193,7 +193,7 @@ const workExperiences = {
     {
       role: "Software Developer",
       company: "Freelance (Upwork, Mostaql)",
-      companylogo: require("./assets/images/freelanceLogo.png"), // Placeholder, replace with actual logo if available
+      companylogo: require("./assets/images/كل-ما-تود-معرفته-عن-منصة-مستقل-scaled.jpg"), // Placeholder, replace with actual logo if available
       date: "2018 - January 2023",
       desc: "Developed and maintained Flutter applications for clients, from conceptualization to deployment, ensuring high-quality mobile app solutions.",
       descBullets: [
