@@ -52,42 +52,111 @@ const skillsSection = {
   title: "What I Do",
   subTitle: "DEVOPS & DATA SCIENCE ENTHUSIAST WHO LOVES TO EXPLORE AND MASTER EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop interactive front-end user interfaces for web and mobile applications"),
-    emoji("⚡ Build and maintain scalable and efficient backend systems"),
-    emoji("⚡ Design and implement robust Big Data analytics solutions"),
-    emoji("⚡ Expert in cloud computing and infrastructure automation"),
-    emoji("⚡ Develop and deploy machine learning models for predictive analytics and AI-driven applications"),
-    emoji("⚡ Ensure high availability and fault tolerance using modern DevOps practices")
+    "⚡ Develop interactive front-end user interfaces for web and mobile applications",
+    "⚡ Build and maintain scalable and efficient backend systems",
+    "⚡ Design and implement robust Big Data analytics solutions",
+    "⚡ Expert in cloud computing and infrastructure automation",
+    "⚡ Develop and deploy machine learning models for predictive analytics and AI-driven applications",
+    "⚡ Ensure high availability and fault tolerance using modern DevOps practices"
   ],
 
-  softwareSkills: [
-    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
-    { skillName: "Sass", fontAwesomeClassname: "fab fa-sass" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
-    { skillName: "SQL Database", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Apache Kafka", fontAwesomeClassname: "fas fa-stream" },
-    { skillName: "Neo4j", fontAwesomeClassname: "fas fa-project-diagram" },
-    { skillName: "NumPy", fontAwesomeClassname: "fas fa-square-root-alt" },
-    { skillName: "Pandas", fontAwesomeClassname: "fas fa-chart-bar" },
-    { skillName: "PySpark", fontAwesomeClassname: "fas fa-rocket" },
-    { skillName: "FastAPI", fontAwesomeClassname: "fas fa-server" },
-    { skillName: "Apache Spark", fontAwesomeClassname: "fas fa-bolt" },
-    { skillName: "Hadoop", fontAwesomeClassname: "fas fa-hdd" },
-    { skillName: "CircleCI", fontAwesomeClassname: "fas fa-circle" },
-    { skillName: "Jira", fontAwesomeClassname: "fab fa-jira" },
-    { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
-    { skillName: "Flutter", fontAwesomeClassname: "fas fa-mobile-alt" }
+  skillGroups: [
+    {
+      groupName: "Frontend and Mobile Development",
+      skills: [
+        { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
+        { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+        { skillName: "Sass", fontAwesomeClassname: "fab fa-sass" },
+        { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+        // { skillName: "React", fontAwesomeClassname: "fab fa-react" },
+        { skillName: "Flutter", fontAwesomeClassname: "fas fa-mobile-alt" },
+
+      ],
+    },
+    {
+      groupName: "Data Science & AI",
+      skills: [
+        { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+        { skillName: "NumPy", fontAwesomeClassname: "fas fa-square-root-alt" },
+        { skillName: "Pandas", fontAwesomeClassname: "fas fa-chart-bar" },
+        { skillName: "PySpark", fontAwesomeClassname: "fas fa-rocket" },
+        { skillName: "FastAPI", fontAwesomeClassname: "fas fa-server" },
+        { skillName: "Apache Spark", fontAwesomeClassname: "fas fa-bolt" },
+        { skillName: "Hadoop", fontAwesomeClassname: "fas fa-hdd" },
+        { skillName: "Matplotlib", fontAwesomeClassname: "fas fa-chart-line" }, // Note: Actual class might differ
+        // { skillName: "Seaborn", fontAwesomeClassname: "fas fa-chart-pie" },
+        // { skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-robot" },
+        // { skillName: "TensorFlow", fontAwesomeClassname: "fas fa-brain" },
+        // { skillName: "Keras", fontAwesomeClassname: "fas fa-brain" },
+        { skillName: "PyTorch", fontAwesomeClassname: "fas fa-fire" },
+        { skillName: "Jupyter", fontAwesomeClassname: "fas fa-laptop-code" },
+        { skillName: "Databricks", fontAwesomeClassname: "fas fa-database" },
+        { skillName: "Data Lake", fontAwesomeClassname: "fas fa-database" },
+        { skillName: "Data Warehousing", fontAwesomeClassname: "fas fa-database" },
+        { skillName: "Data Mining", fontAwesomeClassname: "fas fa-database" },
+        { skillName: "Data Visualization", fontAwesomeClassname: "fas fa-chart-pie" },
+        { skillName: "Data Analysis", fontAwesomeClassname: "fas fa-chart-bar" },
+        { skillName: "Machine Learning", fontAwesomeClassname: "fas fa-robot" },
+        { skillName: "Deep Learning", fontAwesomeClassname: "fas fa-brain" },
+        { skillName: "Neural Networks", fontAwesomeClassname: "fas fa-brain" },
+        { skillName: "Natural Language Processing", fontAwesomeClassname: "fas fa-language" },
+        // { skillName: "Computer Vision", fontAwesomeClassname: "fas fa-camera" },
+        // { skillName: "Reinforcement Learning", fontAwesomeClassname: "fas fa-robot" },
+        // { skillName: "Time Series Analysis", fontAwesomeClassname: "fas fa-chart-line" },
+        // { skillName: "Predictive Analytics", fontAwesomeClassname: "fas fa-chart-line" },
+        // { skillName: "Statistical Analysis", fontAwesomeClassname: "fas fa-chart-line" },
+        // { skillName: "Quantitative Analysis", fontAwesomeClassname: "fas fa-chart-line" },
+        // { skillName: "A/B Testing", fontAwesomeClassname: "fas fa-chart-line" },
+
+      ],
+    },
+    {
+      groupName: "Cloud & DevOps",
+      skills: [
+        { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
+        { skillName: "GCP", fontAwesomeClassname: "fab fa-google" },
+        { skillName: "GitHub Actions", fontAwesomeClassname: "fab fa-github" },
+
+        { skillName: "CircleCI", fontAwesomeClassname: "fas fa-circle" },
+        { skillName: "Jira", fontAwesomeClassname: "fab fa-jira" },
+        { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
+        { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+
+        { skillName: "Kubernetes", fontAwesomeClassname: "fab fa-kubernetes" }, // Note: Actual class might differ
+        { skillName: "Ansible", fontAwesomeClassname: "fas fa-stream" }, // Note: Actual class might differ
+        { skillName: "Terraform", fontAwesomeClassname: "fas fa-cloud" }, // Note: Actual class might differ
+        // { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" },
+        { skillName: "Prometheus", fontAwesomeClassname: "fas fa-chart-line" }, // Note: Actual class might differ
+        { skillName: "Grafana", fontAwesomeClassname: "fas fa-chart-bar" }, // Note: Actual class might differ
+        // { skillName: "GitLab CI/CD", fontAwesomeClassname: "fab fa-gitlab" },
+        // { skillName: "Jenkins", fontAwesomeClassname: "fas fa-ship" }, // Note: Actual class might differ
+        // { skillName: "Nginx", fontAwesomeClassname: "fab fa-nginx" },
+        // { skillName: "Vault", fontAwesomeClassname: "fas fa-user-secret" }, // Note: Actual class might differ
+        // { skillName: "ELK Stack", fontAwesomeClassname: "fas fa-search" }, // Note: Actual class might differ
+      ],
+    },
+    
+    {
+      groupName: "Backend & Databases",
+      skills: [
+        { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+        { skillName: "FastAPI", fontAwesomeClassname: "fas fa-server" },
+        // { skillName: "Flask", fontAwesomeClassname: "fas fa-flask" },
+        { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
+        { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+        { skillName: "MongoDB", fontAwesomeClassname: "fas fa-database" },
+        { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
+
+        { skillName: "SQL Database", fontAwesomeClassname: "fas fa-database" },
+        { skillName: "Apache Kafka", fontAwesomeClassname: "fas fa-stream" },
+        { skillName: "Neo4j", fontAwesomeClassname: "fas fa-project-diagram" },
+      ],
+    },
+ 
   ],
-  display: true
+  display: true,
 };
+
 
 
 // Education Section
