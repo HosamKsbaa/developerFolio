@@ -113,21 +113,21 @@ const skillsSection = {
     {
       groupName: "Cloud & DevOps",
       skills: [
-        { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-        { skillName: "GCP", fontAwesomeClassname: "fab fa-google" },
-        { skillName: "GitHub Actions", fontAwesomeClassname: "fab fa-github" },
+        { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" , familiarity: 5},
+        { skillName: "GCP", fontAwesomeClassname: "fab fa-google" , familiarity: 5},
+        { skillName: "GitHub Actions", fontAwesomeClassname: "fab fa-github" , familiarity: 3},
 
-        { skillName: "CircleCI", fontAwesomeClassname: "fas fa-circle" },
-        { skillName: "Jira", fontAwesomeClassname: "fab fa-jira" },
-        { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
-        { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+        { skillName: "CircleCI", fontAwesomeClassname: "fas fa-circle" , familiarity: 2},
+        { skillName: "Jira", fontAwesomeClassname: "fab fa-jira", familiarity: 1 },
+        { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" , familiarity: 2},
+        { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" , familiarity: 3},
 
-        { skillName: "Kubernetes", fontAwesomeClassname: "fab fa-kubernetes" }, // Note: Actual class might differ
-        { skillName: "Ansible", fontAwesomeClassname: "fas fa-stream" }, // Note: Actual class might differ
-        { skillName: "Terraform", fontAwesomeClassname: "fas fa-cloud" }, // Note: Actual class might differ
+        { skillName: "Kubernetes", fontAwesomeClassname: "fab fa-kubernetes", familiarity: 4 }, // Note: Actual class might differ
+        { skillName: "Ansible", fontAwesomeClassname: "fas fa-stream", familiarity: 5 }, // Note: Actual class might differ
+        { skillName: "Terraform", fontAwesomeClassname: "fas fa-cloud" , familiarity: 5}, // Note: Actual class might differ
         // { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" },
-        { skillName: "Prometheus", fontAwesomeClassname: "fas fa-chart-line" }, // Note: Actual class might differ
-        { skillName: "Grafana", fontAwesomeClassname: "fas fa-chart-bar" }, // Note: Actual class might differ
+        { skillName: "Prometheus", fontAwesomeClassname: "fas fa-chart-line", familiarity: 5 }, // Note: Actual class might differ
+        { skillName: "Grafana", fontAwesomeClassname: "fas fa-chart-bar", familiarity: 5 }, // Note: Actual class might differ
         // { skillName: "GitLab CI/CD", fontAwesomeClassname: "fab fa-gitlab" },
         // { skillName: "Jenkins", fontAwesomeClassname: "fas fa-ship" }, // Note: Actual class might differ
         // { skillName: "Nginx", fontAwesomeClassname: "fab fa-nginx" },
@@ -139,17 +139,17 @@ const skillsSection = {
     {
       groupName: "Backend & Databases",
       skills: [
-        { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
-        { skillName: "FastAPI", fontAwesomeClassname: "fas fa-server" },
+        { skillName: "Node.js", fontAwesomeClassname: "fab fa-node", familiarity: 5 },
+        { skillName: "FastAPI", fontAwesomeClassname: "fas fa-server" , familiarity: 5},
         // { skillName: "Flask", fontAwesomeClassname: "fas fa-flask" },
-        { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
-        { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
-        { skillName: "MongoDB", fontAwesomeClassname: "fas fa-database" },
-        { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
+        { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database", familiarity: 5 },
+        { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" , familiarity: 5},
+        { skillName: "MongoDB", fontAwesomeClassname: "fas fa-database", familiarity: 5 },
+        { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" , familiarity: 5},
 
-        { skillName: "SQL Database", fontAwesomeClassname: "fas fa-database" },
-        { skillName: "Apache Kafka", fontAwesomeClassname: "fas fa-stream" },
-        { skillName: "Neo4j", fontAwesomeClassname: "fas fa-project-diagram" },
+        { skillName: "SQL Database", fontAwesomeClassname: "fas fa-database" , familiarity: 5},
+        { skillName: "Apache Kafka", fontAwesomeClassname: "fas fa-stream", familiarity: 5 },
+        { skillName: "Neo4j", fontAwesomeClassname: "fas fa-project-diagram" , familiarity: 5},
       ],
     },
  

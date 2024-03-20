@@ -14,6 +14,14 @@ export default function SoftwareSkill() {
                 <li key={i} className="software-skill-inline" name={skill.skillName}>
                   <i className={skill.fontAwesomeClassname}></i>
                   <p>{skill.skillName}</p>
+                  <div className="progress-container">
+                    <div
+                      className="progress-value"
+                      style={{ width: `${skill.familiarity * 20}%` }} // Assuming familiarity is a scale of 1 to 5
+                    >
+                      {/* {skill.familiarity}/5 */}
+                    </div>
+                  </div>
                 </li>
               ))}
             </ul>

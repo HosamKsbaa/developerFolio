@@ -29,3 +29,19 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+.progress-container {
+  width: 100%;
+  background-color: #eee; // Light grey background
+  border-radius: 10px; // Rounded corners
+  overflow: hidden; // Ensures the inner bar stays within the rounded corners
+  height: 10px; // Smaller height for a slimmer bar
+  margin-top: 5px; // Add some space above the progress bar
+}
+
+.progress-value {
+  height: 10px; // Match the height of the container
+  background-color: #6c63ff; // Adjust the color to match your design
+  width: 0; // Width will be set dynamically in the inline style
+  border-radius: 10px; // Rounded corners
+  transition: width 0.5s ease-in-out; // Smooth transition for the bar animation
+}
