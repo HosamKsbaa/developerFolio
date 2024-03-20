@@ -215,7 +215,7 @@ const workExperiences = {
     {
       role: "Training Coordinator",
       company: "Resala Charity Organization",
-      companylogo: require("./assets/images/resalaLogo.png"), // Placeholder, replace with actual logo if available
+      companylogo: require("./assets/images/resalaLogo.jpeg"), // Placeholder, replace with actual logo if available
       date: "2016 - 2018",
       desc: "Developed and executed training programs, supporting educational initiatives for students and underprivileged individuals, enhancing community development and education access.",
       descBullets: [
